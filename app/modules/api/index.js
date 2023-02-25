@@ -1,0 +1,1 @@
+export const getMapUrl = (origin, destination, key) => `https://maps.googleapis.com/maps/api/distancematrix/json?destinations=${destination.description}&origins=${origin.description}&units=imperial&key=${key}`;
